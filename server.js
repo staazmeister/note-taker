@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-//ROUTES
+//API ROUTES
 //GET- saved notes
 app.get("/api/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "/db/db.json"))
@@ -36,6 +36,7 @@ app.delete("/api/notes/:id", (req, res) => {
     res.json(deleteNote);
 })
 
+//VIEW ROUTES
 //GET- index.html
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "/public/index.html"));
