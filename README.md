@@ -5,17 +5,14 @@ This week's project was to modify starter code to create an app to write and sav
 # Installation
 No installation needed. Check out the deployed app here: [Note Taker](https://note-taker-jo-hill.herokuapp.com/)
 
-
 # Usage
 Use this app to write and save notes. You can also have the option to delete the note(s) if you don't need them anymore
-
 
 ## User Story (provided in the homework instructions)
 ```
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
-
 ```
 ## Acceptance Criteria (provided in the homework instructions)
 ```
@@ -32,12 +29,9 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-
 ```
-
 ## Why this project is important
 The purpose of this project is apply our newly learned skills using command Express.js, Node.js, APIs and Heroku.
-
 
 ## Actions taken for this project
 -   Utilized Express.js
