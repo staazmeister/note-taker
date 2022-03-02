@@ -42,7 +42,9 @@ The purpose of this project is apply our newly learned skills using command Expr
 
 ## View of how application looks
 
+![Screen Shot 2022-03-01 at 6 21 09 PM](https://user-images.githubusercontent.com/94095220/156282589-334eed3a-17e0-4622-9c63-00a25d4ae3a8.png)
 
+![Screen Shot 2022-03-01 at 6 22 46 PM](https://user-images.githubusercontent.com/94095220/156282597-27f6ee39-216c-458a-accb-3dbaa133d5e2.png)
 
 ## Links to deployed app and GitHup repository
 Deployed application: https://note-taker-jo-hill.herokuapp.com/
