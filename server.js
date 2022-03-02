@@ -8,7 +8,9 @@ const app = express();
 var PORT = process.env.PORT || 3000;
 
 //MIDDLEWARE
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({
+    extended: true
+}));
 app.use(express.json());
 app.use(express.static("public"));
 
@@ -38,15 +40,15 @@ app.delete("/api/notes/:id", (req, res) => {
 
 //VIEW ROUTES
 //GET- index.html
-app.get("/", function (req, res) {
+app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "/public/index.html"));
 });
 //GET- notes.html
-app.get("/notes", function (req, res) {
+app.get("/notes", function(req, res) {
     res.sendFile(path.join(__dirname, "/public/notes.html"));
 });
 
 //Setup listener
-app.listen(PORT, function () {
+app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
 });
