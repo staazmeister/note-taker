@@ -3,7 +3,7 @@ Week 11 Homework
 This week's project was to modify starter code to create an app to write and save notes using Express.js on the back end with the ability to save/retrieve all your notes contained in the JSON file. Using Heroku, you are able to see the deployed application without any installation required.
 
 # Installation
-No installation needed. Check out the deployed app here:[Note Taker](https://note-taker-jo-hill.herokuapp.com/)
+No installation needed. Check out the deployed app here: [Note Taker](https://note-taker-jo-hill.herokuapp.com/)
 
 
 # Usage
